@@ -1,5 +1,3 @@
-const { exportAllDeclaration } = require('@babel/types');
-const { TestResult } = require('@jest/types');
 const Potion = require('../lib/Potion.js');
 
 test('creates a health potion object', () => {
